@@ -1,0 +1,296 @@
+@media screen and (max-width:1092px){
+    #mainvideo {
+        width: 320px;
+        height: 480px;
+        left: 45%;
+    }
+
+    #videoicon1{
+        left: 93%;
+    }
+    #videoicon2{
+        left: 93%;
+    }
+
+
+
+}
+
+@media screen and (max-width:1024px){
+    .search{
+        margin-left: 10%;
+    }
+    .search input{
+          width: 70%;
+    }
+
+}
+
+
+@media screen and (max-width:970px){
+    #mainvideo {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:870px){
+    #mainvideo {
+        width: 265px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #mainvideo {
+        width: 230px;
+        height: 400px;
+    }  
+
+    .card {
+        width: 340px;
+        height: 540px;
+    }
+
+    #searchbox {
+        width: 70vw;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:670px){
+
+    #homemenu {
+        width: 260px;
+        height: 45px;
+       visibility: hidden;
+    }
+
+    #homemenu2 {
+        width: 260px;
+        height: 45px;
+        visibility: unset;
+    }
+
+    .closei{
+        top: 10%;
+        right: 15%;
+    }
+
+    #pleft #ptop {
+        height: 115px;
+    }
+
+    #pleft{
+        width: 100vw;
+        height: 100%;
+        border: none;
+    }
+
+    .card{
+        width: 60vw;
+        height: 85vh;
+    }
+
+    .cardimg{
+        height: 420px;
+    }
+
+    #pright{
+        display: none;
+        width: 100vw;
+        border: none;
+    }
+
+    #pright2{
+        display: none;
+        width: 100vw;
+        border: none;
+    }
+
+    #mainvideo {
+        width: 55vw;
+        height: 95vw;
+        left: 50%;
+    }
+
+    #videoicon1{
+        left: 88%;
+    }
+
+    #videoicon2{
+        left: 88%;
+    }
+
+    #vidicocl {
+        top: 41%;
+        left: 88%;
+    }
+
+    #searchbox {
+        width: 90vw;
+        height: 75%;
+    }
+
+    .Searchid {
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    #fullscreen{
+        width: 55vw;
+        height: 80vh;
+    }
+
+    .menubox h2 {
+        padding: 30px 20vw;
+        white-space: nowrap;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:620px){
+    .card{
+        width: 65vw;
+        height: 102%;
+    }
+
+    
+    #fullscreen{
+        width: 57vw;
+    }
+
+    .closei {
+        right: 10%;
+    }
+}
+
+@media screen and (max-width:600px){
+
+     #fullscreen{
+        width: 62vw;
+    }
+}
+
+@media screen and (max-width:500px){
+    .card{
+        width: 75vw;
+    }
+
+    #fullscreen{
+        width: 70vw;
+    }
+
+    .closei {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width:455px){
+
+    #fullscreen{
+        height: 70%;
+    }
+
+    .closei {
+        top: 13%;
+    }
+
+    #homemenu {
+        width: 101vw;
+        height: 10%;
+        bottom: -45px;
+        /* background-color: red; */
+    }
+
+    #homemenu2 {
+        width: 101vw;
+        height: 10%;
+        bottom: -45px;
+        /* background-color: red; */
+    }
+
+    svg {
+        width: 29px;
+        height: 29px;
+        margin-bottom: 15px;
+    }
+    #homemenu2 svg {
+        width: 29px;
+        height: 29px;
+    }
+
+    #mainvideo {
+        width: 100vw;
+        height: 100vh;
+        position: unset;
+        transform: unset;
+        border: none;
+    }
+
+    video{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .card{
+        margin-bottom: 15px;
+    }
+
+    .idname{
+        font-size: 18px;
+    }
+
+    .Follow{
+        font-size: 17px;
+    }
+
+    .iconsize{
+        font-size: 24px;
+    }
+
+}
+
+
+
+@media screen and (max-width:425px){
+    .card{
+        width: 85vw;
+    }
+
+    #fullscreen{
+        width: 77vw;
+    }
+
+    .closei {
+        right: 3%;
+    }
+}
+
+@media screen and (max-width:375px){
+    .search input{
+        width: 66%;
+  }
+  /* #mainvideo {
+    width: 69vw;
+    height: 120v;
+} */
+
+.menubox h2 {
+    padding: 28px 17vw;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+}
+
+
+/* #pleft{
+    background-color: burlywood;
+} */
+
+/* #pright2{
+    background-color: rgb(187, 222, 135);
+} */
+
