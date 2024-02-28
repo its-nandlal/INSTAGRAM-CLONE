@@ -168,41 +168,76 @@ arr2.forEach(function(val2,idx){
 
 function togal(){
     
-    document.querySelector(".imglike").style.color = "red";
-    document.querySelector(".like2").style.color = "red";
-    document.querySelector(".imglike").style.transform = 'translate(-50%,-50%) scale(1)';
-    document.querySelector(".imglike").style.opacity = 1;
+    // document.querySelector(".imglike")
+    // document.querySelector(".like2").style.color = "red";
+    // document.querySelector(".imglike")
+    // document.querySelector(".imglike")
 
-    setTimeout(() => {
-        document.querySelector(".imglike").style.transform = 'translate(-50%,-50%) scale(0)';
-        document.querySelector(".imglike").style.opacity = 0;
-    }, 1000);
-}
+    // setTimeout(() => {
+    //     document.querySelector(".imglike").style.transform = 'translate(-50%,-50%) scale(0)';
+    //     document.querySelector(".imglike").style.opacity = 0;
+    // }, 1000);
+};
 
-document.querySelector(".like2").addEventListener("click",function(){
-    
-    if (like2val ==0) {
-        document.querySelector(".like2").style.color = "red";
-        like2val = 1
-    } else {
-        document.querySelector(".like2").style.color = "white";
-        like2val = 0
-    }
-    
 
+var cardimg = document.querySelectorAll(".cardimg")
+cardimg.forEach((elem)=>{
+    elem.addEventListener("dblclick",()=>{
+
+    })
 })
 
-document.querySelector(".Follow").addEventListener("click",function(){
-    if(Followval == 0){
-        document.querySelector(".Follow").innerHTML = "Following"
-        Followval = 1
-    }
-    else{
-        document.querySelector(".Follow").innerHTML = "Follow"
-        Followval = 0
-    }
+document.querySelectorAll(".card")
+.forEach((elem)=>{
+    elem.childNodes[3]
+    .addEventListener("dblclick",()=>{
+        elem.childNodes[7].childNodes[0].style.transform = 'translate(-50%,-50%) scale(1)';
+        elem.childNodes[7].childNodes[0].style.opacity = 1;
+        elem.childNodes[7].childNodes[0].style.color = "red";
+        elem.childNodes[5].childNodes[1].style.color = "red";
+
+        setTimeout(()=>{
+            elem.childNodes[7].childNodes[0].style.transform = 'translate(-50%,-50%) scale(0)';
+            elem.childNodes[7].childNodes[0].style.opacity = 0;
+        }, 1000)
+
+    })
+})
+
+
+var like = document.querySelectorAll(".like2")
+
+like.forEach((elem)=>{
+    elem
+    .addEventListener("click",function(){
+        if (like2val == 0) {
+            elem.style.color = "red";
+            like2val = 1
+        } else {
+            elem.style.color = "white";
+            like2val = 0
+        }    
+    })
     
 })
+
+var follow = document.querySelectorAll(".Follow")
+
+follow.forEach((elem)=>{
+    elem
+    .addEventListener("click",function(){
+        if(Followval == 0){
+            elem.innerHTML = "Following"
+            Followval = 1
+        }
+        else{
+            elem.innerHTML = "Follow"
+            Followval = 0
+        }
+        
+    })
+})
+
 
 
 
@@ -243,10 +278,14 @@ messages.innerHTML = cluter3;
 })
 
 
-document.querySelector(".cardmenu").addEventListener("click",function(){
-    sectionmenu.style.display = "block"
-    console.log("hello");
+var cardmenu = document.querySelectorAll(".cardmenu")
+cardmenu.forEach((elem)=>{
+    elem.addEventListener("click",function(){
+        sectionmenu.style.display = "block"
+    })
 })
+
+
 
 sectionmenu.addEventListener("click",function(){
     sectionmenu.style.display = "none"
